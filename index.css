@@ -1,0 +1,78 @@
+body {
+  background-color: lightgray;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 10px;
+}
+
+.outerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  padding: 1rem;
+  color: blue;
+  text-decoration: bold;
+  font-size: 1.4rem;
+}
+
+hr {
+  margin-bottom: 3rem;
+}
+
+.active {
+  width: 400px;
+  transition: width 1s;
+  animation: expand;
+  animation-duration: 900ms;
+}
+
+@keyframes expand {
+  from {width: 60px;}
+  to {width: 400px;}
+}
+  
+.container {
+  display: flex;
+  justify-content: center;
+}
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+    outline: 6px solid black;
+    border-radius: 20px;
+    min-width: 60px;
+    height: 100%;
+    color: white;
+}
+
+    span {
+      margin: 200px auto 5px auto;
+      font-size: 2rem;
+      height: auto;
+      cursor: pointer;
+    }
+
+    p {
+      padding: 1rem;
+    }
+
+   
+  
+@media screen and (max-width: 700px) {
+  .container {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: none;
+  }
+}
