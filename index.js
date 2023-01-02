@@ -9,7 +9,7 @@ for (let element of elements) {
 
 elements[0].style.backgroundColor = "blue";
 elements[1].style.backgroundColor = "green";
-elements[2].style.backgroundColor = "black";
+elements[2].style.backgroundColor = "blue";
 elements[3].style.backgroundColor = "green";
 elements[4].style.backgroundColor = "blue";
 
